@@ -1,0 +1,13 @@
+{
+  "name": "now-gone",
+  "regions": ["hnd1"],
+  "public": false,
+  "github": { "silent": true },
+  "version": 2,
+  "routes": [
+    {
+      "src": "/(.*)",
+      "status": 410
+    }
+  ]
+}
